@@ -28,6 +28,6 @@ public class Author {
     }
     public String outToString()
     {
-        return this.name+" ("+this.gender+") at "+this.email;
+        return this.getName()+" ("+this.getGender()+") at "+this.getEmail();
     }
 }
